@@ -21,6 +21,7 @@ root@HelloWorld:~/DjangoTest# source ./VENV/bin/activate
 (VENV) root@HelloWorld:~/DjangoTest# django-admin startproject pickme
 
 ## Hierarchy is like below
+```
 DjangoTest/
 └── pickme/
    ├── pickme/
@@ -29,7 +30,7 @@ DjangoTest/
    │   ├── urls.py
    │   └── wsgi.py
    └── manage.py
-
+```
 ## Change directory to /pickme
 (VENV) root@HelloWorld:~/DjangoTest# cd ./pickme
 ## Test Django server
@@ -42,6 +43,7 @@ http://127.0.0.1:8001
 (VENV) root@HelloWorld:~/DjangoTest/pickme# python manage.py startapp polls
 
 ## Hierarchy is like below
+```
 DjangoTest/
 └── pickme/
    ├── pickme/
@@ -56,8 +58,6 @@ DjangoTest/
    │   └── views.py
    ├── manage.py
    └── db.sqlite3
+```
 
-## !!Patch to your django project!!
-
-## Template
-(VENV) root@HelloWorld:~/DjangoTest/pickme#
+## :+1: Patch to your django project!!
