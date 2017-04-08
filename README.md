@@ -1,9 +1,8 @@
 ################################################
-## [Project]: Django - Pick Me (Web Application)
-##
-## [Reference]:
-## 1) https://blog.liang2.tw/posts/2015/10/django-draw-member/#data-in-orm-and-fixtures
-## 2) https://github.com/ccwang002/draw_member_django 
+# [Project]: Django - Pick Me (Web Application)
+[Reference]:
+1) https://blog.liang2.tw/posts/2015/10/django-draw-member/#data-in-orm-and-fixtures
+ 2) https://github.com/ccwang002/draw_member_django 
 ################################################
 
 ## Open a directory 
@@ -22,14 +21,14 @@ root@HelloWorld:~/DjangoTest# source ./VENV/bin/activate
 (VENV) root@HelloWorld:~/DjangoTest# django-admin startproject pickme
 
 ## Hierarchy is like below
-## DjangoTest/
-## └── pickme/
-##    ├── pickme/
-##    │   ├── __init__.py
-##    │   ├── settings.py
-##    │   ├── urls.py
-##    │   └── wsgi.py
-##    └── manage.py
+ DjangoTest/
+ └── pickme/
+    ├── pickme/
+    │   ├── __init__.py
+    │   ├── settings.py
+    │   ├── urls.py
+    │   └── wsgi.py
+    └── manage.py
 
 ## Change directory to /pickme
 (VENV) root@HelloWorld:~/DjangoTest# cd ./pickme
@@ -37,27 +36,26 @@ root@HelloWorld:~/DjangoTest# source ./VENV/bin/activate
 (VENV) root@HelloWorld:~/DjangoTest/pickme# python manage.py runserver 8001
 
 ## ======== Checkpoint here =========
-##  http://127.0.0.1:8001
-## ==================================
+http://127.0.0.1:8001
 
 ## Open the first Django app
 (VENV) root@HelloWorld:~/DjangoTest/pickme# python manage.py startapp polls
 
 ## Hierarchy is like below
-## DjangoTest/
-## └── pickme/
-##    ├── pickme/
-##    │   ├── ...
-##    ├── polls/
-##    │   ├── admin.py
-##    │   ├── apps.py
-##    │   ├── __init__.py
-##    │   ├── migrations/
-##    │   ├── models.py
-##    │   ├── tests.py
-##    │   └── views.py
-##    ├── manage.py
-##    └── db.sqlite3
+ DjangoTest/
+ └── pickme/
+    ├── pickme/
+    │   ├── ...
+    ├── polls/
+    │   ├── admin.py
+    │   ├── apps.py
+    │   ├── __init__.py
+    │   ├── migrations/
+    │   ├── models.py
+    │   ├── tests.py
+    │   └── views.py
+    ├── manage.py
+    └── db.sqlite3
 
 ## !!Patch the django project with github source!!
 
