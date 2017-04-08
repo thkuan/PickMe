@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>{% block title %}抽籤吧{% endblock %}</title>
+    </head>
+    <body>
+        {% block content %}{% endblock content %}
+        <hr>
+        <h3>功能列</h3>
+        <ul>
+            <li><a href="{% url 'index' %}">首頁(抽籤吧)</a></li>
+            <li><a href="{% url 'history' %}">歷史記錄</a></li>
+            <li><a href="{% url 'reset' %}">清除記錄</a></li>
+        </ul>
+    </body>
+    <hr>
+    <!--
+    <p>https://github.com/ccwang002/draw_member</p>
+    -->
+</html>

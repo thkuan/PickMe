@@ -1,0 +1,26 @@
+{% extends "./home.html" %}
+
+{% block luckyguy %}
+<table>
+    <thead>
+    <tr>
+        <th>工號</th>
+        <th>名字</th>
+        <th>部門</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        {% if lucky_draw %}
+        <td>{{ lucky_draw.employee_id }}</td>
+        <td>{{ lucky_draw.ch_name }} ({{ lucky_draw.name }})</td>
+        <td>{{ lucky_draw.department}}</td>
+        {% else %}
+        <td>5566</td>
+        <td>G 林(G Lin)</td>
+        <td>產品規劃一部</td>
+        {% endif %}
+    </tr>
+    </tbody>
+</table>
+{% endblock luckyguy %}

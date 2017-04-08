@@ -1,0 +1,20 @@
+{% extends "./base.html" %}
+
+{# Comment Here!! #}
+
+{% block content %}
+<h1>來抽出快樂的夥伴吧！</h1>
+{% block luckyguy %}
+{% endblock luckyguy %}
+<p>選擇要被抽的部門</p>
+<form action="{% url 'draw' %}" method="post">
+    {# Add {% csrf_token %} to avoid Cross Site Request Forgery #}
+    {% csrf_token %}
+    <label for="group_name">部門名稱：</label>
+    <input type="radio" name="group_name" value="PM">PM
+    <input type="radio" name="group_name" value="Sales">Sales
+    <input type="radio" name="group_name" value="EE">RD
+    <input type="radio" name="group_name" value="ALL" checked>All
+    <input type="submit" value="Submit">
+</form>
+{% endblock content %}
