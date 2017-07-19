@@ -6,6 +6,7 @@
 ## Demo
 ![Demo](./application.png)
 
+## Step By Step - Build up
 ###### Open a directory 
 ```
 root@HelloWorld:~# mkdir DjangoTest
