@@ -1,7 +1,10 @@
 # [Project]: Django - Pick Me (Web Application)
-[Reference]:
+**[Reference]**:
 1) https://blog.liang2.tw/posts/2015/10/django-draw-member/#data-in-orm-and-fixtures
 2) https://github.com/ccwang002/draw_member_django
+
+## Demo
+![Demo](./application.png)
 
 ###### Open a directory 
 ```
